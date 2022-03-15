@@ -15,6 +15,7 @@ class App extends Component {
 					justifyContent: 'center',
 					alignItems: 'center',
 					height: '80vh',
+					background-color: '#0C0404',
 				}}>
 					<Segment raised style={{
 						padding: '110px',
@@ -25,6 +26,7 @@ class App extends Component {
 
 						<Container style={{
 							paddingTop: '30px',
+							background-color: '#808080',
 						}}>
 							<Input iconPosition='left' placeholder='Email' fluid>
 								<Icon name='at' />
@@ -33,6 +35,7 @@ class App extends Component {
 							<Input placeholder='Password' fluid style={{
 								paddingTop: '30px',
 								paddingBottom: '30px',
+								background-color: '#B6B6B4'
 							}} />
 							<Button positive fluid>Login</Button>
 						</Container>
